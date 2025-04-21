@@ -1,6 +1,6 @@
 # AstroCRM Test Automation
 
-This repository contains automated test for the **AstroCRM** platform. The test is written using **Playwright** and covers various functionalities such as login, chat interaction, and script group creation.
+This repository contains automated test for the **AstroCRM** platform. The tests are written using **Playwright** and cover various functionalities such as login, chat interaction, and script group creation.
 
 ## Project Setup
 
@@ -47,12 +47,8 @@ nvm use 20.18.1
 ```
 
 Verify the versions:
-```bash
-node -v     # Should show v20.18.1
-```
-```bash
-npm -v      # Should show 6.14.18
-```
+node -v   # Should show v20.18.1
+npm -v    # Should show 6.14.18
 
 4. **Install dependencies**:
 ```bash

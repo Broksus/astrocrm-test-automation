@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@common/*": ["src/common/*"],
+      "@web_ui/*": ["src/web_ui/*"],
+      "@typedefs/*": ["src/typedefs.ts/*"],
+      "@constants/*": ["src/common/constants/*"],
+      "@config": ["e2e/config/config.ts"]
+    },
+    "target": "es2016",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
+}
